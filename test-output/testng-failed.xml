@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Name">
+        <methods>
+          <include name="open_Tata_Aia"/>
+          <include name="setUp"/>
+          <include name="CloseBrowser"/>
+          <include name="Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number"/>
+          <include name="extentReport"/>
+          <include name="User_Actions"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Name -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

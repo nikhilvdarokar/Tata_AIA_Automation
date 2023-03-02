@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T10:48:38 IST" name="Suite" finished-at="2023-03-02T10:49:53 IST" duration-ms="74794">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T10:48:38 IST" name="Test" finished-at="2023-03-02T10:49:53 IST" duration-ms="74794">
+      <class name="Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No">
+        <test-method is-config="true" signature="open_Tata_Aia()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:25 IST" name="open_Tata_Aia" finished-at="2023-03-02T10:49:45 IST" duration-ms="19803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Tata_Aia -->
+        <test-method is-config="true" signature="User_Actions()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:45 IST" name="User_Actions" finished-at="2023-03-02T10:49:48 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Actions -->
+        <test-method signature="Verify_create_user_With_Valid_Credentials()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:48 IST" name="Verify_create_user_With_Valid_Credentials" finished-at="2023-03-02T10:49:51 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_create_user_With_Valid_Credentials -->
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:51 IST" name="extentReport" finished-at="2023-03-02T10:49:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:51 IST" name="getResult" finished-at="2023-03-02T10:49:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_create_user_With_Valid_Credentials status=SUCCESS method=Test_Tata_AIA_With_Valid_Name_And_Mob_No.Verify_create_user_With_Valid_Credentials()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No@6c6cb480]" started-at="2023-03-02T10:49:51 IST" name="CloseBrowser" finished-at="2023-03-02T10:49:53 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test_Tata_AIA_Classes.Test_Tata_AIA_With_Valid_Name_And_Mob_No -->
+      <class name="Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:48:37 IST" name="setUp" finished-at="2023-03-02T10:48:38 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="open_Tata_Aia()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:48:38 IST" name="open_Tata_Aia" finished-at="2023-03-02T10:49:13 IST" duration-ms="34890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Tata_Aia -->
+        <test-method is-config="true" signature="User_Actions()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:13 IST" name="User_Actions" finished-at="2023-03-02T10:49:23 IST" duration-ms="9938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Actions -->
+        <test-method signature="Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:23 IST" name="Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number" finished-at="2023-03-02T10:49:23 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number -->
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:23 IST" name="extentReport" finished-at="2023-03-02T10:49:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:23 IST" name="getResult" finished-at="2023-03-02T10:49:23 IST" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number status=SUCCESS method=Test_Tata_AIA_With_Invalid_Mob_No.Verify_user_Should_Get_Error_Message_When_Mob_No_NotTenDigit_Or_Not_A_Proper_Number()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:23 IST" name="CloseBrowser" finished-at="2023-03-02T10:49:25 IST" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No@5fe94a96]" started-at="2023-03-02T10:49:53 IST" name="tearDown" finished-at="2023-03-02T10:49:55 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Tata_AIA_Classes.Test_Tata_AIA_With_Invalid_Mob_No -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
